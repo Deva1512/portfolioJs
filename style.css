@@ -355,6 +355,13 @@ span{
     html{
         font-size: 55%;
     }
+    .project{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .project-container{
+        margin: auto;
+        width: 700px;
+    }
 
 }
 
@@ -375,6 +382,10 @@ span{
     .footer{
         padding:2rem 3%;
     }
+    .project-container{
+        /* width:400px; */
+        margin:auto;
+    }
 }
 
 
@@ -384,6 +395,9 @@ span{
     }
     .home{
         flex-direction: column;
+    }
+    .home-content{
+        order:2;
     }
     .home-content h3{
         font-size: 2.6rem;
@@ -414,28 +428,16 @@ span{
 }
 
 @media (max-width: 450px){
-      html{
+    html{
         font-size: 50%;
-      }
-      .contact form .input-box input{
-        width:50%;
-      }
-      
-      
-      .project-container .project-box img{
-        width:30%;
-        margin-right: 5rem;
-        }
-      
-      .project-box .project-layer{
-        width: 31%;
+    }
+    .contact form .input-box input{
+        width: 100%;
         
-      }
-      .about {
-        width: 100vw;
-      }
-      
-      .about-img img{
+    }
+    .project-container{
         width:300px;
-      }
+    }
 }
+      
+      
