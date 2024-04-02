@@ -103,14 +103,14 @@ span{
 }
 @keyframes flaotimage {
     0%{
-        transform: translatey(0);
+        transform: rotate(360 deg);
     }
     50%{
-        transform: translatey(-20px);
+        transform: translatey(-20px); 
     }
-   100%{
+   100%{ 
     transform: translatey(0);
-}
+} 
 }
 .home-content p{
     font-size: 2rem;
